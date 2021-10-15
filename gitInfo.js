@@ -10,6 +10,9 @@
 */
 
 //CODE HERE
+console.log ("---Problem 1---")
+var gitDefinition = ("Git is a version control protocol that allows you to easily maintain and organize your data.")
+console.log (gitDefinition)
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -18,6 +21,9 @@
 */
 
 //CODE HERE
+console.log ("---Problem 2---")
+var gitHubDefinition = ("GitHub is a cloud service that uses git to download/upload your data remotely and allows you the ability to share that data to others.")
+console.log (gitHubDefinition)
 
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
@@ -34,7 +40,11 @@
 */
 
 //CODE HERE
-
+console.log ("---Problem 3---")
+var init = new Object();
+init.description = "The way you initialize a git repository inside of a project"
+init.code = "git init"
+console.log (`${init.description} and how you perform the command is: ${init.code}`)
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -42,6 +52,11 @@
 */
 
 //CODE HERE
+console.log("---Problem 4---")
+var clone = new Object();
+clone.description = "Cloning is the action of taking an existing repo and creating a copy within the given directory"
+clone.code = "git clone <URL HERE>"
+console.log (`${clone.description} and how you perform the command is: ${clone.code}`)
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -50,6 +65,12 @@
 */
 
 //CODE HERE
+console.log ("---Problem 5---")
+var gitStatus = new Object();
+gitStatus.description = "Status is how you check to see what within your repository is ready to be commited"
+gitStatus.code = "git status"
+console.log (`${gitStatus.description} and how you perform the command is: ${gitStatus.code}`)
+
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -58,6 +79,12 @@
 */
 
 //CODE HERE
+console.log("---Problem 6---")
+var add = new Object();
+add.description = "add is how you insert a file into the respository. additionally, you can add all files within the directory by using a period as the modifer"
+add.code = "git add <file or .>"
+console.log (`${add.description} and how you perform the command is: ${add.code}`)
+
 
 //////////////////PROBLEM 7////////////////////
 /*
