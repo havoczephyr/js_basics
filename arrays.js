@@ -59,7 +59,7 @@ function bigOrSmall(arr) {
     if (arr[i] > 100) {
       answers.push ("Big")
     } else {
-      answers.push (arr[i])
+      answers.push ("Small")
     }
   }
   console.log (answers)

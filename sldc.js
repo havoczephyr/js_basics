@@ -24,10 +24,11 @@
 /*
     Create a variable for each of the above steps of the Software Development Lifecycle and set the values of each variable to a definition of the step.
 */
-var softwareDevelopmentLifecycle = new Object();
-softwareDevelopmentLifecycle.aoR = "working with the client to get a better understanding of what solutions are needed or wanted"
-softwareDevelopmentLifecycle.planning = "based on what is discussed, a project is planned out based on the cost and resources available"
-softwareDevelopmentLifecycle.design = "a framework is drawn out to best display how the project will satisfy client needs."
-softwareDevelopmentLifecycle.implementation = "the period of time developing the project up until the project is completed."
-softwareDevelopmentLifecycle.testingIntegration = "QA is performed and the solution goes live."
-softwareDevelopmentLifecycle.maintain = "Solution is monitored for issues and for effectiveness"
+// var softwareDevelopmentLifecycle = new Object();
+var softwareDevelopmentLifeCycle = {aoR, planning, design, implementation, testingIntegration, maintain, }
+softwareDevelopmentLifeCycle.aoR = "working with the client to get a better understanding of what solutions are needed or wanted"
+softwareDevelopmentLifeCycle.planning = "based on what is discussed, a project is planned out based on the cost and resources available"
+softwareDevelopmentLifeCycle.design = "a framework is drawn out to best display how the project will satisfy client needs."
+softwareDevelopmentLifeCycle.implementation = "the period of time developing the project up until the project is completed."
+softwareDevelopmentLifeCycle.testingIntegration = "QA is performed and the solution goes live."
+softwareDevelopmentLifeCycle.maintain = "Solution is monitored for issues and for effectiveness"

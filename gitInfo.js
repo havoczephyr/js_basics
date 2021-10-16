@@ -41,7 +41,7 @@ console.log (gitHubDefinition)
 
 //CODE HERE
 console.log ("---Problem 3---")
-var init = new Object();
+var init = {};
 init.description = "The way you initialize a git repository inside of a project"
 init.code = "git init"
 console.log (`${init.description} and how you perform the command is: ${init.code}`)
@@ -53,7 +53,7 @@ console.log (`${init.description} and how you perform the command is: ${init.cod
 
 //CODE HERE
 console.log("---Problem 4---")
-var clone = new Object();
+var clone = {};
 clone.description = "Cloning is the action of taking an existing repo and creating a copy within the given directory"
 clone.code = "git clone <URL HERE>"
 console.log (`${clone.description} and how you perform the command is: ${clone.code}`)
@@ -66,7 +66,7 @@ console.log (`${clone.description} and how you perform the command is: ${clone.c
 
 //CODE HERE
 console.log ("---Problem 5---")
-var gitStatus = new Object();
+var gitStatus = {};
 gitStatus.description = "Status is how you check to see what within your repository is ready to be commited"
 gitStatus.code = "git status"
 console.log (`${gitStatus.description} and how you perform the command is: ${gitStatus.code}`)
@@ -80,7 +80,7 @@ console.log (`${gitStatus.description} and how you perform the command is: ${git
 
 //CODE HERE
 console.log("---Problem 6---")
-var add = new Object();
+var add = {};
 add.description = "add is how you insert a file into the respository. additionally, you can add all files within the directory by using a period as the modifer"
 add.code = "git add <file or .>"
 console.log (`${add.description} and how you perform the command is: ${add.code}`)
@@ -93,6 +93,10 @@ console.log (`${add.description} and how you perform the command is: ${add.code}
 */
 
 //CODE HERE
+console.log("---Problem 7---")
+var commit = {};
+commit.description = "allows you to commit those changes into the documents history"
+commit.code = "git commit -m (commit description here)"
 
 
 //////////////////PROBLEM 8////////////////////
@@ -102,3 +106,7 @@ console.log (`${add.description} and how you perform the command is: ${add.code}
 */
 
 //CODE HERE
+console.log("---Problem 8---")
+var push = {};
+push.description = "final step in getting your commit up to the remote server."
+push.code = "git push -u origin main"
